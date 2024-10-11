@@ -1,0 +1,8 @@
+# ignore object files
+*.o
+# ignore binary files
+*.exe
+# sensitive data
+passwords.txt
+data/*/secrets/
+.vs/
