@@ -1,1 +1,3 @@
 #include "move.h"
+
+Move::(){}
