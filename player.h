@@ -1,8 +1,8 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-enum Player {
-	EMPTY,
-	PLAYER_X,
-	PLAYER_O
+#include "sign.h"
+
+struct Player {
+	virtual Move DoMove(Sign board[3][3]) = 0;
 };
